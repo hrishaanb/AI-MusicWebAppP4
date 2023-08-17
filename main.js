@@ -37,7 +37,7 @@ function draw () {
     if (scoreLeftWrist > 0.2) {    
         circle(leftWristX, leftWristY, 20);
         peter_pan.stop();
-        if (song1Status == "false") {
+        if (song1Status == "False") {
             harry_potter.play();
             document.getElementById("div_song_name").innerHTML = "Song Name - Harry Potter (Modified Version)";
         }
